@@ -29,13 +29,21 @@ figure {
 }
 
 p {
-  font-size: 1rem;
+  display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 h3 {
-  margin-top: 3em;
-  margin-bottom: 4em;
-  font-size: 1rem;
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
 }
 
 ul {
@@ -52,4 +60,14 @@ li {
 .history {
   display: block;
   font-size: 1rem;
+}
+blockquote {
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+}
+
+a {
+  color: #477ca7;
 }
